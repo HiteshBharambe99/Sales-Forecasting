@@ -1,0 +1,20 @@
+{
+  "backtest": {
+    "seasonal_naive": {
+      "MAE": 1959.5,
+      "RMSE": 2290.8,
+      "MAPE_pct": 10.83
+    },
+    "linear_regression": {
+      "MAE": 1259.8,
+      "RMSE": 1687.6,
+      "MAPE_pct": 7.02
+    },
+    "random_forest": {
+      "MAE": 1729.5,
+      "RMSE": 2342.4,
+      "MAPE_pct": 8.9
+    }
+  },
+  "best_model": "linear_regression"
+}
